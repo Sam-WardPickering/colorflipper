@@ -20,3 +20,9 @@ bttn.addEventListener('click', function() {
 function getRandomNumber() {
     return Math.floor(Math.random() * hex.length);
 }
+
+document.getElementById('homeButtonIcon').addEventListener('click', returnHome);
+
+function returnHome() {
+    window.location.href="https://sam-wardpickering.github.io/";
+}
