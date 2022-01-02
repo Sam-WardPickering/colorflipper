@@ -102,3 +102,7 @@ main {
 
 
 }
+
+#homeButtonIcon:hover {
+    cursor: pointer;
+}
